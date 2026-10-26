@@ -1,1 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+nav {
+  background: #1f2937;
+  color: white;
+  padding: 1rem;
+}
+
+.hero {
+  background-image: url('hero-wyoming-trek.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero-content {
+  background: rgba(0,0,0,.4);
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 16px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.countdown {
+  text-align: center;
+}
+
+#days {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #b45309;
+}
+
+footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
