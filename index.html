@@ -1,1 +1,57 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>2027 Moroni Utah Stake Trek</title></head><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2027 Moroni Utah Stake Trek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h1>2027 Moroni Utah Stake Trek</h1>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>2027 Moroni Utah Stake Trek</h1>
+    <h2>Rejoice in Christ</h2>
+    <p>Philippians 4:4</p>
+  </div>
+</header>
+
+<section class="countdown">
+  <h2>Countdown to Trek</h2>
+  <div id="days"></div>
+</section>
+
+<section>
+  <h2>Documents</h2>
+  <p>Forms and resources coming soon.</p>
+</section>
+
+<section>
+  <h2>FAQ</h2>
+  <p>Frequently asked questions will be posted here.</p>
+</section>
+
+<section>
+  <h2>Photo Gallery</h2>
+  <p>Photos coming soon.</p>
+</section>
+
+<footer>
+  <p>2027 Moroni Utah Stake Trek</p>
+</footer>
+
+<script>
+const trekDate = new Date("May 31, 2027");
+const today = new Date();
+const days = Math.ceil((trekDate - today) / (1000 * 60 * 60 * 24));
+
+document.getElementById("days").textContent =
+  days + " days remaining";
+</script>
+
+</body>
+</html>
