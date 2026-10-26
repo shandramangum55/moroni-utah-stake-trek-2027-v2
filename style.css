@@ -16,6 +16,7 @@ nav {
   color: white;
   text-align: center;
   padding: 140px 20px;
+  min-height: 500px;
 }
 
 .hero-content {
