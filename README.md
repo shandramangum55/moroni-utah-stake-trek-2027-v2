@@ -1,0 +1,1 @@
+Upload hero-wyoming-trek.jpg into public folder. Connect to Netlify with build command npm run build and publish directory dist.
